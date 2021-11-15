@@ -1,0 +1,101 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        学生信息管理页面
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/manage.css">
+    <style>
+        body {
+            background: url("img/bc.png") no-repeat;
+            background-size:cover;
+        }
+    </style>
+    <script src="script/register.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div id="header">
+        <div id="top">
+            <div id="righttop">
+                2021/10/08
+            </div>
+            <div id="lefttop">
+                <h1>
+                    <a href="#">main</a>
+                </h1>
+            </div>
+        </div>
+
+        <div id="content">
+            <h2>
+                学生信息管理
+            </h2>
+
+            <form action="">
+                <input type="text">
+                <input type="button" value="查找">
+
+                <table class="formtable">
+                    <tr>
+                        <th>学号</th>
+                        <th>姓名</th>
+                        <th>用户类型</th>
+                        <th>手机号</th>
+                        <th>邮箱</th>
+                        <th>所在学院</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                        <td>10000001</td>
+                        <td>张三</td>
+                        <td>学生</td>
+                        <td>13900000000</td>
+                        <td>zhangsan@xaut.edu.cn</td>
+                        <td>计算机学院</td>
+                        <td>
+                            <a href="#">查看</a>
+                            <a href="#" onclick="alert('确认修改？')">修改</a>
+                            <a href="#" onclick="alert('确认删除？')">删除</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10000002</td>
+                        <td>李四</td>
+                        <td>学生</td>
+                        <td>13900000001</td>
+                        <td>lisi@xaut.edu.cn</td>
+                        <td>自动化学院</td>
+                        <td>
+                            <a href="#">查看</a>
+                            <a href="#" onclick="alert('确认修改？')">修改</a>
+                            <a href="#" onclick="alert('确认删除？')">删除</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10000003</td>
+                        <td>王五</td>
+                        <td>学生</td>
+                        <td>13900000003</td>
+                        <td>wangwu@xaut.edu.cn</td>
+                        <td>水利学院</td>
+                        <td>
+                            <a href="#">查看</a>
+                            <a href="#" onclick="alert('确认修改？')">修改</a>
+                            <a href="#" onclick="alert('确认删除？')">删除</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footbg">
+            liruihang@163.com
+        </div>
+    </div>
+</div>
+</body>
+</html>

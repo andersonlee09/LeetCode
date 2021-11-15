@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title>
+                登录页面
+            </title>
+            <link rel="stylesheet" href="css/style.css">
+            <style>
+                .info{
+                        color: red;
+                        font-size: 11px;
+                    }
+                body {
+                    background: url("img/bc.png") no-repeat;
+                    background-size:cover;
+                }
+            </style>
+             <!--<script src="script/login.js"></script> -->
+            <script src="script/jquery-3.6.0.min.js"></script>
+           <script src="script/login.js"></script>
+
+        </head>
+    <body>
+        <div id="wrap">
+                <div id="header">
+                    <div id="top">
+                        <div id="righttop">
+                            <span id="currentdate"> </span>
+                        </div>
+                        <div id="lefttop">
+                            <h1>
+                                <a href="#">main</a>
+                            </h1>
+                        </div>
+                    </div>
+
+                    <div id="content">
+                        <h2>
+                            登录
+                        </h2>
+
+                        <form action="manage_example_2.html" name="form1">
+                            <table class="formtable">
+                                <tr>
+                                    <td align="right">账号：</td>
+                                    <td><input type="text" name="username" id="username"></td>
+                                    <td> <span id="usernameinfo" class="info"></span> </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">密码：</td>
+                                    <td><input type="password" name="password" id="password"></td>
+                                    <td> <span id="passwordinfo" class="info"></span> </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">验证码：</td>
+                                    <td><input type="text" name="imagecode" id="imagecode"> <img src="img/timg.jpg" alt="验证码"></td>
+                                    <td> <span id="imagecodeinfo" class="info"></span> </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">用户类别：</td>
+                                    <td><input type="radio" name="usertype"> 教师
+                                        <input type="radio" name="usertype" checked> 学生
+                                        <input type="radio" name="usertype"> 管理员
+                                    </td>
+                                </tr>
+                            </table>
+                            <input type="submit" class="button"  id="mysubmit">
+                        </form>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="footbg">
+                        ruangonghuan@126.com
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>

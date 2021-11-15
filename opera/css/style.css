@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 15px 0;
+    background: #eeeeee;
+}
+#wrap{
+    width: 820px;
+    margin: 0 auto;
+    background: url(../img/bg.gif) top center repeat-y #ffffff;
+}
+#header{
+    padding: 0 10px;
+}
+#lefttop{
+    padding: 25px 15px 15px 15px;
+    margin: 0 auto 0 auto; 
+    background: #85C329;
+}
+#righttop{
+    float: right;
+    width: 375px;
+    height: 40px;
+    color: #ffffff;
+    text-align: right;
+    padding: 60px 10px;
+}
+#lefttop a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#content{
+    padding: 0 15px;
+    margin: 0 auto 0 auto;
+    background: url(../img/content_bg.gif) repeat-x left top #ffffff;
+    color: #666666;
+}
+#content h2{
+    padding: 20px 0 15px 0;
+    margin: 0;
+    color: #5494F3;
+}
+.formtable{
+    margin: 0 0 0 15px;
+    font-size: 1.1em;
+}
+.formtable td{
+    padding:5px 10px;
+}
+input.button{
+    font-size: 1.1em;
+    margin: 10px;
+    padding: 2px;
+    border: 3px double #999999;
+    border-left-color: #ccc;
+    border-top-color: #ccc;
+    background: url(../img/button.gif) repeat-x left top;
+    font-size: 20px;
+}
+#footer{
+    background: url(../img/footer.gif) no-repeat center bottom ;
+    padding: 0 10px 13px 10px;
+    color: #ffffff;
+}
+#footer #footbg{
+    background:  #85C329;
+    padding: 15px 15px 25px 15px;
+    border-top: 1px solid #7BB425;
+}
+.formTable td img {
+    height: 25px;
+    vertical-align: middle;
+    border: none;
+}

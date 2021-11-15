@@ -1,0 +1,18 @@
+.formTable {
+    width: 100%;
+    margin: auto;
+    border: #85c329 solid 1px;
+    font-size: 14px;
+}
+.formTable th{
+    padding: 5px 10px;
+    background-color: #74A8F5;
+    color: #ffffff;
+    border: #ffffff solid 1px;
+}
+.formTable td{
+    padding: 5px 10px;
+    text-align: right;
+    background-color: aliceblue;
+    border: #ffffff solid 1px;
+}
